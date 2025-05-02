@@ -34,8 +34,11 @@ Este proyecto utliza Python -(insertar versión de python)- y las siguientes lib
 El entrenamiento del modelo se organizó en los siguientes componentes:    
 1. Se dividió la base de datos en 5 conjuntos estadísticamente equivalentes. Cabe destacar que los datos, al ser confidenciales, no se encuentran en el repositorio.     
 2. TheModel.py: contiene la arquitectura del modelo utilizado local y globalmente. El modelo utilizado fue...  
-3. implementar_entrenar.ipynb: cada uno de los conjuntos de datos se utilizó para entrenar un modelo localmente. Posteriormente, cada modelo se exporta con formato ".keras" para después agregarlo al modelo global. La única modificación necesaria es  el nombre del archivo con los datos a utilizar; y, si así se desea, el nombre con el cual se exportará el modelo.   
-4.   
+3. implementar_entrenar.ipynb: cada uno de los conjuntos de datos se utilizó para entrenar un modelo localmente. Posteriormente, cada modelo se exporta con formato ".keras" para después agregarlo al modelo global. La única modificación necesaria es el nombre del archivo con los datos a utilizar; y, si así se desea, el nombre con el cual se exportará el modelo.   
+4. Se utilizaron 3 métodos para la agregación global:
+   * FedAvg: El cual promedia los pesos de cada model entrenado localmente
+   * Segundo metodo
+   * Tercero  
 
 # Autores
 Pamela Cantú Rodríguez | A01285128   
