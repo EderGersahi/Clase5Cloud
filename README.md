@@ -12,6 +12,13 @@ Este proyecto utliza Python -(insertar versión de python)- y las siguientes lib
 * numpy: Biblioteca optimizada para cálculos numéricos y manipulación de arreglos y matrices.
 * matplotlib: Herramienta para crear gráficos y visualizaciones de datos.
 * scikit-learn: Conjunto de herramientas para machine learning, esto incluye algoritmos de clasificación, regresión y clustering.
+* keras:
+
+* Librerias:
+  keras==3.1.1
+  numpy==1.26.4
+  scikit-learn==1.6.1
+  matplotlib==3.7.1
 
 # Orden de ejecución
 El entrenamiento del modelo se organizó en los siguientes componentes:    
