@@ -5,7 +5,7 @@ El objetivo de esta actividad es realizar un implementación básica del Aprendi
 La actividad simuló un escenario de Aprendizaje Federado con datos confidenciales pertenecientes a cada cliente (en este caso 5). Cada cliente entrenó de manera independiente el modelo utilizando solamente sus propios datos. Posteriormente, los 5 modelos se combinaron en un modelo global utilizando 3 técnicas:   
 * **FedAvg**: promedia los modelos entrenados por cada dispositivo y los distribuye nuevamente, permitiendo el aprendizaje sin compartir datos privados.
 * **FedMedian**: usa la mediana en lugar del promedio para reducir el impacto de valores extremos, mejorando la estabilidad frente a datos inconsistentes.
-* **FedNova**: ajusta la contribución de cada cliente según cuánto haya entrenado, equilibrando mejor los modelos en dispositivos con diferentes capacidades.
+* **FedNova**: ajusta la contribución de cada integrante según cuánto haya entrenado, equilibrando mejor los modelos en dispositivos con diferentes capacidades.
 
 # Dependencias y librerías
 Este proyecto utliza Python -(insertar versión de python)- y las siguientes librerías:    
