@@ -15,6 +15,8 @@ Este proyecto utliza Python -(insertar versión de python)- y las siguientes lib
 * keras:
 
 * Versiones de Librerias:
+
+  
   keras==3.1.1
 
    
