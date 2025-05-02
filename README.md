@@ -12,7 +12,7 @@ Este proyecto utliza Python -(insertar versión de python)- y las siguientes lib
 * numpy: Biblioteca optimizada para cálculos numéricos y manipulación de arreglos y matrices.
 * matplotlib: Herramienta para crear gráficos y visualizaciones de datos.
 * scikit-learn: Conjunto de herramientas para machine learning, esto incluye algoritmos de clasificación, regresión y clustering.
-* keras:
+* keras: Conjunto de herramientas fácil de usar para crear redes neuronales y modelos de inteligencia artificial.
 
 * Versiones de Librerias:
 
