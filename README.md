@@ -7,7 +7,7 @@ La actividad simuló un escenario de Aprendizaje Federado con datos confidencial
 * **FedMedian**:
 * **FedNova**:
 
-# Dependencias
+# Dependencias y librerías
 Este proyecto utliza Python -(insertar versión de python)- y las siguientes librerías:    
 * numpy:
 * matplotlib:
