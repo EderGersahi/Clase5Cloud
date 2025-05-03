@@ -15,7 +15,7 @@ Este proyecto utliza Python -(insertar versión de python)- y las siguientes lib
 * scikit-learn: Conjunto de herramientas para machine learning, esto incluye algoritmos de clasificación, regresión y clustering.
 * keras: Conjunto de herramientas fácil de usar para crear redes neuronales y modelos de inteligencia artificial.
 
-* Versiones de Librerias:
+* Versiones de Librerías:
 
   
   keras==3.1.1
@@ -36,8 +36,7 @@ El entrenamiento del modelo se organizó en los siguientes componentes:
 1. Se dividió la base de datos en 5 conjuntos estadísticamente equivalentes. Cabe destacar que los datos, al ser confidenciales, no se encuentran en el repositorio.     
 2. TheModel.py: contiene la arquitectura del modelo utilizado local y globalmente. El modelo utilizado fue...  
 3. implementar_entrenar.ipynb: cada uno de los conjuntos de datos se utilizó para entrenar un modelo localmente. Posteriormente, cada modelo se exporta con formato ".keras" para después agregarlo al modelo global. La única modificación necesaria es el nombre del archivo con los datos a utilizar; y, si así se desea, el nombre con el cual se exportará el modelo.   
-4. Se utilizaron 4 técnicas para la agregación global
-5. Se corrio un modelo global en un solo dispositivo
+4. modelos_gloables.ipynb: Contiene el código utilizado para la agregación global incluyendo 4 técnicas: FedAvg, FedMedian, Promedios Ponderados y FedNova.
 
 # Autores
 Pamela Cantú Rodríguez | A01285128   
