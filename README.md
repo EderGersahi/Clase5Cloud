@@ -6,6 +6,7 @@ La actividad simuló un escenario de Aprendizaje Federado con datos confidencial
 * **FedAvg**: promedia los modelos entrenados por cada dispositivo y los distribuye nuevamente, permitiendo el aprendizaje sin compartir datos privados.
 * **FedMedian**: usa la mediana en lugar del promedio para reducir el impacto de valores extremos, mejorando la estabilidad frente a datos inconsistentes.
 * **FedNova**: ajusta la contribución de cada integrante según cuánto haya entrenado, equilibrando mejor los modelos en dispositivos con diferentes capacidades.
+* **Promedio ponderado**: técnica para combinar los modelos locales teniendo en cuenta la cantidad de datos con la que fue entrenado cada modelo.
 
 # Dependencias y librerías
 Este proyecto utliza Python -(insertar versión de python)- y las siguientes librerías:    
@@ -35,7 +36,7 @@ El entrenamiento del modelo se organizó en los siguientes componentes:
 1. Se dividió la base de datos en 5 conjuntos estadísticamente equivalentes. Cabe destacar que los datos, al ser confidenciales, no se encuentran en el repositorio.     
 2. TheModel.py: contiene la arquitectura del modelo utilizado local y globalmente. El modelo utilizado fue...  
 3. implementar_entrenar.ipynb: cada uno de los conjuntos de datos se utilizó para entrenar un modelo localmente. Posteriormente, cada modelo se exporta con formato ".keras" para después agregarlo al modelo global. La única modificación necesaria es el nombre del archivo con los datos a utilizar; y, si así se desea, el nombre con el cual se exportará el modelo.   
-4. Se utilizaron 3 técnicas para la agregación global
+4. Se utilizaron 4 técnicas para la agregación global
 
 # Autores
 Pamela Cantú Rodríguez | A01285128   
