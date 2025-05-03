@@ -9,7 +9,7 @@ La actividad simuló un escenario de Aprendizaje Federado con datos confidencial
 * **Promedio ponderado**: técnica para combinar los modelos locales teniendo en cuenta la cantidad de datos con la que fue entrenado cada modelo.
 
 # Dependencias y librerías
-Este proyecto utliza Python -(insertar versión de python)- y las siguientes librerías:    
+Este proyecto utliza Python y las siguientes librerías:    
 * numpy: Biblioteca optimizada para cálculos numéricos y manipulación de arreglos y matrices.
 * matplotlib: Herramienta para crear gráficos y visualizaciones de datos.
 * scikit-learn: Conjunto de herramientas para machine learning, esto incluye algoritmos de clasificación, regresión y clustering.
