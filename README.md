@@ -2,7 +2,7 @@
 El objetivo de esta actividad es realizar un implementación básica del Aprendizaje Federado utilizando TensorFlow. El modelo se entrenó de manera descentralizada con 5 conjuntos de datos locales y, posteriormente, se agregaron al modelo global mediante diferentes técnicas. 
 
 # Descripción 
-La actividad simuló un escenario de Aprendizaje Federado con datos confidenciales pertenecientes a cada cliente (en este caso 5). Cada cliente entrenó de manera independiente el modelo utilizando solamente sus propios datos. Posteriormente, los 5 modelos se combinaron en un modelo global utilizando 3 técnicas:   
+La actividad simuló un escenario de Aprendizaje Federado con datos confidenciales pertenecientes a cada cliente (en este caso 5). Cada cliente entrenó de manera independiente el modelo utilizando solamente sus propios datos. Posteriormente, los 5 modelos se combinaron en un modelo global utilizando 4 técnicas:   
 * **FedAvg**: promedia los modelos entrenados por cada dispositivo y los distribuye nuevamente, permitiendo el aprendizaje sin compartir datos privados.
 * **FedMedian**: usa la mediana en lugar del promedio para reducir el impacto de valores extremos, mejorando la estabilidad frente a datos inconsistentes.
 * **FedNova**: ajusta la contribución de cada integrante según cuánto haya entrenado, equilibrando mejor los modelos en dispositivos con diferentes capacidades.
